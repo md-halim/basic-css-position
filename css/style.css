@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+.maindiv{
+    width:800px;
+    height:600px;
+    margin: auto;
+    background-color:darkorange;
+    position: relative;
+}
+.one{   
+       background-color: green;   
+}
+.two{
+     background-color:red; 
+     left:100px;
+     top:100px;
+}
+.three{  
+    background-color:rgb(227, 243, 0);  
+    left:200px;
+    top:200px;
+}
+.four{
+       background-color:hotpink;  
+       left:300px; 
+       top:300px;
+}
+.one,
+.two,
+.three,
+.four{
+    width:200px;
+    height:200px;
+   /* float: left; */
+    position: absolute;
+    transition:.9s;
+}
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover{
+    background-color:rebeccapurple;
+    width:400px;
+    z-index:1;
+    border-radius:50% 50% 50% 1%;
+}
